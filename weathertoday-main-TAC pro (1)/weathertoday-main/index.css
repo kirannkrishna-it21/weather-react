@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins',sans-serif;      
+
+}
+
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+/*--------------navbar----------------*/
+.bold{
+    font-size: 25px;
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid dodgerblue;
+    transition: .3s;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------home------*/
+span{
+    color: dodgerblue;
+    font-weight: bold;
+
+}
+p{
+    font-size: 18px;
+
+}
+/*--------about------1rem = 10px------*/
+
+#about img{
+    
+    border-radius: 15px;
+
+}
+
+
+/*------SErveice------*/
+
+.card img{
+    height: 200px;
+    transition: 1s;
+
+}
+
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    
+}
+
+/*----Contact section---*/
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px 5px rgba(0,0,0,.05);
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.card-body a:hover{
+    background-color: #fff;
+    color: rgb(63, 131, 63);
+    font-weight: bold;
+}
+
+#cloudlogo{
+    height: 20px;
+    width: 20px;
+}
+
